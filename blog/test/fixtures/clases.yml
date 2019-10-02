@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_clase: 1
+  nombre: MyString
+  periodo: 1
+  comentario: MyText
+  id_profesor: 1
+  id_alumno: 1
+
+two:
+  id_clase: 1
+  nombre: MyString
+  periodo: 1
+  comentario: MyText
+  id_profesor: 1
+  id_alumno: 1

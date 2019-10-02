@@ -1,0 +1,17 @@
+<h1>Lista de comentarios</h1>
+
+<table>
+    <tr>
+        <th>Comentarios</th>
+        <th></th>
+    </tr>
+
+    <% @clases.each do |clase| %>
+        <tr>
+            <td><%= clase.comentario %></td>
+            <td><%= link_to 'Show', clase_path(clase) %></td>
+        </tr>
+    <% end %>
+</table>
+
+<%= link_to 'Nuevo Comentario', new_clase_path %>
